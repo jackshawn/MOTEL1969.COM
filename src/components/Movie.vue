@@ -2,7 +2,9 @@
     <div class="movie-wrap">
         <div class="movie-poster">
             <img :src="video.cover" alt="">
-            <Icon icon="play" class="play" onclick="window.open('https://aweme.snssdk.com/aweme/v1/playwm/?video_id=v0200f960000beub2ikm7fibf5skhf90&line=0')"></Icon>
+            <div class="play" @click="jump">
+                <Icon icon="play"></Icon>
+            </div>
         </div>
 
         <div class="movie-detail">
@@ -54,6 +56,10 @@
             toggle(n) {
                 this.index = n;
 
+            },
+            jump() {
+                let _this = this;
+                window.open('javascript:window.name;', '<script>location.replace("' + _this.video.douyin + '")<\/script>'); // 不带referer跳转
             }
         }
     }
@@ -88,6 +94,11 @@
                 left: 50%;
                 margin-top: -20px;
                 margin-left: -20px;
+
+                &>svg {
+                    width: 40px;
+                    height: 40px;
+                }
             }
         }
 

@@ -1,9 +1,6 @@
 <template>
     <div class="main">
-
         <Movie v-for="i in videos" :video="i"></Movie>
-
-
         <div class="empty"></div>
         <!--<div class="btn-more">-->
             <!--{{{normal: '更 多', done: '没有了', fetching: '正在获取...'}[btnState]}}-->
@@ -36,6 +33,8 @@
 <style scoped lang="scss">
     .main {
         display: flex;
+        max-width: 800px;
+        margin: 0 auto;
 
         flex-wrap: wrap;
 

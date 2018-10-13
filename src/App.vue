@@ -1,7 +1,9 @@
 <template>
     <div id="app">
         <div class="header">
-            <!--<img src="./assets/logo.jpg" alt="">-->
+            <img src="./assets/logo.jpg" alt="">
+            <br>
+            <span class="title">MOTEL1969.COM</span>
             <br>
             <br>
             <router-link :to="{path: '/home'}">首 页</router-link>
@@ -12,6 +14,8 @@
         <keep-alive>
             <router-view></router-view>
         </keep-alive>
+
+        <p style="text-align: center">coming soon ...</p>
     </div>
 </template>
 
@@ -45,6 +49,13 @@
 
         .header {
             text-align: center;
+            margin-top: 30px;
+            margin-bottom: 20px;
+
+            .title {
+                font-size: 12px;
+                font-weight: bold;
+            }
 
             a {
                 color: #2c3e50;
