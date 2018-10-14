@@ -39,6 +39,7 @@
         flex-wrap: wrap;
 
         justify-content: center;
+        align-items: center;
 
         .empty {
             width: 360px;

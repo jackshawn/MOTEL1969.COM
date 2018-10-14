@@ -10,7 +10,7 @@
         <div class="movie-detail">
             <div class="detail-name">
                 <span @click="toggle(num)" class="one-name" :class="index == num ? 'active' : ''" v-for="(i, num) in video.movie">
-                    {{i.name}} <span>{{i.point}}</span>
+                    {{i.name}} <span class="movie-point">{{i.point}}</span>
 
                     <span class="line-arrow"></span>
                 </span>
@@ -66,6 +66,7 @@
 </script>
 <style scoped lang="scss">
     $video-width: 360px;
+    $line-color: #999;
 
     .movie-wrap {
         width: $video-width;
@@ -73,6 +74,8 @@
 
         overflow: hidden;
         margin: 10px;
+        box-shadow: 1px 1px 3px #ccc;
+
 
 
         .movie-poster {
@@ -127,8 +130,8 @@
                         background: #fff;
 
                         border: 1px solid transparent;
-                        border-top-color: #666;
-                        border-right-color: #666;
+                        border-top-color: $line-color;
+                        border-right-color: $line-color;
 
                         transform: rotate(-45deg);
 
@@ -147,13 +150,15 @@
                         }
                     }
 
+                    .movie-point {color: #f44336}
+
                 }
             }
 
             .detail-line {
                 height: 0;
                 margin: 10px 0;
-                border-bottom: 1px solid #666;
+                border-bottom: 1px solid $line-color;
 
 
 

@@ -68,7 +68,7 @@
                 /*font-size: 18px;*/
 
                 &.router-link-exact-active {
-                    border-bottom: 2px solid #333;
+                    border-bottom: 2px solid #f44336;
                     font-weight: bold;
                 }
             }
