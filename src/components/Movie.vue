@@ -9,11 +9,9 @@
 
         <div class="movie-detail">
             <div class="detail-name">
-                <span @click="toggle(num)" class="one-name" :class="index == num ? 'active' : ''" v-for="(i, num) in video.movie">
-                    {{i.name}} <span class="movie-point">{{i.point}}</span>
-
+                <div @click="toggle(num)" class="one-name" :class="index == num ? 'active' : ''" v-for="(i, num) in video.movie">{{i.name}} <span class="movie-point">{{i.point}}</span>
                     <span class="line-arrow"></span>
-                </span>
+                </div>
             </div>
             <div class="detail-line"></div>
             <div class="detail-media">
