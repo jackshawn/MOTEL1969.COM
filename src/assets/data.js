@@ -139,27 +139,23 @@ export default [
                 video: [
                     {
                         icon: 'thunder',
-                        link: ''
+                        link: 'thunder://QUFmdHA6Ly8zOjNAZHguZGwxMjM0LmNvbTo4MDA2L1slRTclOTQlQjUlRTUlQkQlQjElRTUlQTQlQTklRTUlQTAlODJ3d3cuZHkyMDE4LmNvbV0lRTclQkIlQTMlRTYlOTglQTUlRTUlODglODBCRCVFNCVCOCVBRCVFOCU4QiVCMSVFNSU4RiU4QyVFNSVBRCU5Ny5ybXZiWlo='
                     },
                     {
                         icon: 'baiduyun',
-                        link: ''
-                    },
-                    {
-                        icon: 'youku',
-                        link: ''
+                        link: 'https://pan.baidu.com/s/1kjhJDcZ6E9znZOgShvCeyA'
                     },
                     {
                         icon: 'aiqiyi',
-                        link: ''
+                        link: 'https://www.iqiyi.com/v_19rrmm2vbk.html'
                     },
                     {
                         icon: 'tencent',
-                        link: ''
+                        link: 'https://v.qq.com/x/cover/08rvzgv3arftegc.html'
                     },
                     {
                         icon: 'bilibili',
-                        link: ''
+                        link: 'https://www.bilibili.com/bangumi/play/ss12476'
                     },
                 ],
             },
@@ -167,19 +163,7 @@ export default [
         music: [
             {
                 icon: 'netease',
-                link: ''
-            },
-            {
-                icon: 'qq',
-                link: ''
-            },
-            {
-                icon: 'xiami',
-                link: ''
-            },
-            {
-                icon: 'kugou',
-                link: ''
+                link: 'https://music.163.com/#/song?id=504017347'
             },
         ],
         date: ''
@@ -195,15 +179,15 @@ export default [
                 video: [
                     {
                         icon: 'thunder',
-                        link: ''
+                        link: 'thunder://QUFmdHA6Ly8wOjBAZHguZGwxMjM0LmNvbTo2Nzk4L1slRTclOTQlQjUlRTUlQkQlQjElRTUlQTQlQTklRTUlQTAlODJ3d3cuZHkyMDE4LmNvbV0lRTclOEUlOEIlRTclODklOEMlRTclODklQjklRTUlQjclQTUlRTclODklQjklRTUlQjclQTUlRTUlQUQlQTYlRTklOTklQTJCRCVFNCVCOCVBRCVFOCU4QiVCMSVFNSU4RiU4QyVFNSVBRCU5Ny5ta3ZaWg=='
                     },
                     {
                         icon: 'baiduyun',
-                        link: ''
+                        link: 'https://pan.baidu.com/s/1YW_r1gbG3-wVxkHrpzih-A'
                     },
                     {
                         icon: 'youku',
-                        link: ''
+                        link: 'https://v.youku.com/v_show/id_XMTYxNDU4NzY3Ng==.html'
                     },
                     {
                         icon: 'aiqiyi',
@@ -211,11 +195,7 @@ export default [
                     },
                     {
                         icon: 'tencent',
-                        link: ''
-                    },
-                    {
-                        icon: 'bilibili',
-                        link: ''
+                        link: 'https://v.qq.com/x/cover/2n0gjsfnpyvbin3.html'
                     },
                 ],
             },
@@ -223,18 +203,6 @@ export default [
         music: [
             {
                 icon: 'netease',
-                link: ''
-            },
-            {
-                icon: 'qq',
-                link: ''
-            },
-            {
-                icon: 'xiami',
-                link: ''
-            },
-            {
-                icon: 'kugou',
                 link: ''
             },
         ],
@@ -251,27 +219,11 @@ export default [
                 video: [
                     {
                         icon: 'thunder',
-                        link: ''
+                        link: 'thunder://QUFmdHA6Ly9kOmRAZHlnb2RqOC5jb206MTIzMTEvWyVFNyU5NCVCNSVFNSVCRCVCMSVFNSVBNCVBOSVFNSVBMCU4Mnd3dy5keTIwMTguY29tXSVFNCVCOCU4RSVFNyVBNSU5RSVFNSU5MCU4QyVFOCVBMSU4Q0JEJUU5JTlGJUE5JUU4JUFGJUFEJUU0JUI4JUFEJUU1JUFEJTk3Lm1wNFpa'
                     },
                     {
                         icon: 'baiduyun',
-                        link: ''
-                    },
-                    {
-                        icon: 'youku',
-                        link: ''
-                    },
-                    {
-                        icon: 'aiqiyi',
-                        link: ''
-                    },
-                    {
-                        icon: 'tencent',
-                        link: ''
-                    },
-                    {
-                        icon: 'bilibili',
-                        link: ''
+                        link: 'https://pan.baidu.com/s/1A23kGILzjlYmCA4XhoNtGg'
                     },
                 ],
             },
@@ -307,27 +259,11 @@ export default [
                 video: [
                     {
                         icon: 'thunder',
-                        link: ''
+                        link: 'thunder://QUFmdHA6Ly9keWdvZDE6ZHlnb2QxQGQzMTEuZHlkeXR0LmNvbTo4MDA5L1slRTclOTQlQjUlRTUlQkQlQjElRTUlQTQlQTklRTUlQTAlODJ3d3cuZHkyMDE4Lm5ldF0uJUU2JUIzJUIwJUU4JUJGJUFBJUU3JTg2JThBLjcyMHAuQkQlRTQlQjglQUQlRTglOEIlQjElRTUlOEYlOEMlRTUlQUQlOTclRTUlQjklOTUucm12Ylpa'
                     },
                     {
                         icon: 'baiduyun',
-                        link: ''
-                    },
-                    {
-                        icon: 'youku',
-                        link: ''
-                    },
-                    {
-                        icon: 'aiqiyi',
-                        link: ''
-                    },
-                    {
-                        icon: 'tencent',
-                        link: ''
-                    },
-                    {
-                        icon: 'bilibili',
-                        link: ''
+                        link: 'https://pan.baidu.com/s/1Qzt6RRXAaGSXZZs3vEbxJA'
                     },
                 ],
             },
@@ -338,27 +274,11 @@ export default [
                 video: [
                     {
                         icon: 'thunder',
-                        link: ''
+                        link: 'thunder://QUFmdHA6Ly80OjRAZHguZGwxMjM0LmNvbTo1NDc4L1slRTclOTQlQjUlRTUlQkQlQjElRTUlQTQlQTklRTUlQTAlODJ3d3cuZHkyMDE4LmNvbV0lRTYlQjMlQjAlRTglQkYlQUElRTclODYlOEEyQkQlRTQlQjglQUQlRTglOEIlQjElRTUlOEYlOEMlRTUlQUQlOTcucm12Ylpa'
                     },
                     {
                         icon: 'baiduyun',
-                        link: ''
-                    },
-                    {
-                        icon: 'youku',
-                        link: ''
-                    },
-                    {
-                        icon: 'aiqiyi',
-                        link: ''
-                    },
-                    {
-                        icon: 'tencent',
-                        link: ''
-                    },
-                    {
-                        icon: 'bilibili',
-                        link: ''
+                        link: 'https://pan.baidu.com/s/1chvVLEE2gOwFX5bVwSCuoQ'
                     },
                 ],
             },
@@ -366,19 +286,7 @@ export default [
         music: [
             {
                 icon: 'netease',
-                link: ''
-            },
-            {
-                icon: 'qq',
-                link: ''
-            },
-            {
-                icon: 'xiami',
-                link: ''
-            },
-            {
-                icon: 'kugou',
-                link: ''
+                link: 'https://music.163.com/#/song?id=1310901503'
             },
         ],
         date: ''
@@ -394,27 +302,15 @@ export default [
                 video: [
                     {
                         icon: 'thunder',
-                        link: ''
-                    },
-                    {
-                        icon: 'baiduyun',
-                        link: ''
+                        link: 'thunder://QUFmdHA6Ly8xOjFAZDMuZGwxMjM0LmNvbTo4MDA2LyVFNSVCMCU5MSVFNiU5RSU5NyVFOCVCNiVCMyVFNyU5MCU4M0JEJUU1JTlCJUJEJUU3JUIyJUE0JUU1JThGJThDJUU4JUFGJUFEJUU0JUI4JUFEJUU1JUFEJTk3WyVFNyU5NCVCNSVFNSVCRCVCMSVFNSVBNCVBOSVFNSVBMCU4Mnd3dy5keTIwMTguY29tXS5ta3ZaWg=='
                     },
                     {
                         icon: 'youku',
-                        link: ''
+                        link: 'https://v.youku.com/v_show/id_XMzQ2OTk2Mjky.html'
                     },
                     {
                         icon: 'aiqiyi',
-                        link: ''
-                    },
-                    {
-                        icon: 'tencent',
-                        link: ''
-                    },
-                    {
-                        icon: 'bilibili',
-                        link: ''
+                        link: 'https://www.iqiyi.com/v_19rrho3hqc.html'
                     },
                 ],
             },
@@ -422,18 +318,6 @@ export default [
         music: [
             {
                 icon: 'netease',
-                link: ''
-            },
-            {
-                icon: 'qq',
-                link: ''
-            },
-            {
-                icon: 'xiami',
-                link: ''
-            },
-            {
-                icon: 'kugou',
                 link: ''
             },
         ],
@@ -449,27 +333,11 @@ export default [
                 time: '1999',
                 video: [
                     {
-                        icon: 'thunder',
-                        link: ''
-                    },
-                    {
                         icon: 'baiduyun',
                         link: ''
                     },
                     {
-                        icon: 'youku',
-                        link: ''
-                    },
-                    {
-                        icon: 'aiqiyi',
-                        link: ''
-                    },
-                    {
-                        icon: 'tencent',
-                        link: ''
-                    },
-                    {
-                        icon: 'bilibili',
+                        icon: 'youtube',
                         link: ''
                     },
                 ],
@@ -478,19 +346,11 @@ export default [
         music: [
             {
                 icon: 'netease',
-                link: ''
-            },
-            {
-                icon: 'qq',
-                link: ''
+                link: 'https://music.163.com/#/song?id=187076'
             },
             {
                 icon: 'xiami',
-                link: ''
-            },
-            {
-                icon: 'kugou',
-                link: ''
+                link: 'https://www.xiami.com/song/OGjub63c8'
             },
         ],
         date: ''
@@ -506,23 +366,19 @@ export default [
                 video: [
                     {
                         icon: 'thunder',
-                        link: ''
-                    },
-                    {
-                        icon: 'baiduyun',
-                        link: ''
+                        link: 'thunder://QUFmdHA6Ly9qOmpAZy5keWdvZDE4LmNvbTo3OTc4LyVFNCVCOCU5QyVFOSU4MiVBQSVFOCVBNSVCRiVFNiVBRiU5MiVFRiVCQyU5QSVFNyVCQiU4OCVFNiU5RSU4MSVFNyU4OSU4OEJEJUU1JTlCJUJEJUU3JUIyJUE0JUU1JThGJThDJUU4JUFGJUFEJUU0JUI4JUFEJUU1JUFEJTk3WyVFNyU5NCVCNSVFNSVCRCVCMSVFNSVBNCVBOSVFNSVBMCU4Mnd3dy5keTIwMTguY29tXS5ta3ZaWg=='
                     },
                     {
                         icon: 'youku',
-                        link: ''
+                        link: 'https://v.youku.com/v_show/id_XMzc0MDg0OTk3Mg==.html'
                     },
                     {
                         icon: 'aiqiyi',
-                        link: ''
+                        link: 'https://www.iqiyi.com/v_19rr7qtak8.html'
                     },
                     {
                         icon: 'tencent',
-                        link: ''
+                        link: 'https://v.qq.com/x/cover/sjf09eud1m3p8sn/w0026t02p83.html'
                     },
                     {
                         icon: 'bilibili',
@@ -534,19 +390,7 @@ export default [
         music: [
             {
                 icon: 'netease',
-                link: ''
-            },
-            {
-                icon: 'qq',
-                link: ''
-            },
-            {
-                icon: 'xiami',
-                link: ''
-            },
-            {
-                icon: 'kugou',
-                link: ''
+                link: 'https://music.163.com/#/song?id=1294924351'
             },
         ],
         date: ''
@@ -614,27 +458,19 @@ export default [
                 video: [
                     {
                         icon: 'thunder',
-                        link: ''
+                        link: 'thunder://QUFmdHA6Ly81OjVAZHguZGwxMjM0LmNvbTo4MDA2LyVFNSU4QSU5RiVFNSVBNCVBQkJEJUU1JTlCJUJEJUU3JUIyJUE0JUU1JThGJThDJUU4JUFGJUFEJUU0JUI4JUFEJUU1JUFEJTk3WyVFNyU5NCVCNSVFNSVCRCVCMSVFNSVBNCVBOSVFNSVBMCU4Mnd3dy5keTIwMTguY29tXS5ta3ZaWg=='
                     },
                     {
                         icon: 'baiduyun',
-                        link: ''
+                        link: 'https://pan.baidu.com/s/1AE8cq0Wdj84wxVHR_xuxug'
                     },
                     {
                         icon: 'youku',
-                        link: ''
+                        link: 'https://v.youku.com/v_show/id_XMTQwNzMzMTc1Mg==.html'
                     },
                     {
                         icon: 'aiqiyi',
-                        link: ''
-                    },
-                    {
-                        icon: 'tencent',
-                        link: ''
-                    },
-                    {
-                        icon: 'bilibili',
-                        link: ''
+                        link: 'https://www.iqiyi.com/v_19rrk40ajc.html'
                     },
                 ],
             },
@@ -642,19 +478,7 @@ export default [
         music: [
             {
                 icon: 'netease',
-                link: ''
-            },
-            {
-                icon: 'qq',
-                link: ''
-            },
-            {
-                icon: 'xiami',
-                link: ''
-            },
-            {
-                icon: 'kugou',
-                link: ''
+                link: 'https://music.163.com/#/song?id=531842654'
             },
         ],
         date: ''
@@ -670,47 +494,27 @@ export default [
                 video: [
                     {
                         icon: 'thunder',
-                        link: ''
+                        link: 'thunder://QUFmdHA6Ly9qOmpAZy5keWdvZDE4LmNvbTo3OTc4LyVFOSU5OCVCRiVFOSVBMyU5RSVFNiVBRCVBMyVFNCVCQyVBMEJEJUU1JTlCJUJEJUU3JUIyJUE0JUU1JThGJThDJUU4JUFGJUFEJUU0JUI4JUFEJUU1JUFEJTk3WyVFNyU5NCVCNSVFNSVCRCVCMSVFNSVBNCVBOSVFNSVBMCU4Mnd3dy5keTIwMTguY29tXS5ta3ZaWg=='
                     },
                     {
                         icon: 'baiduyun',
-                        link: ''
-                    },
-                    {
-                        icon: 'youku',
-                        link: ''
+                        link: 'https://pan.baidu.com/s/1alIvIEqyRn2SmclNwByfeA'
                     },
                     {
                         icon: 'aiqiyi',
-                        link: ''
+                        link: 'https://www.iqiyi.com/v_19rrjd2ne4.html'
                     },
                     {
                         icon: 'tencent',
-                        link: ''
-                    },
-                    {
-                        icon: 'bilibili',
-                        link: ''
+                        link: 'https://v.qq.com/x/cover/9rdumgzlk5dbogp/8VEnaHIG0rq.html'
                     },
                 ],
             },
         ],
         music: [
             {
-                icon: 'netease',
-                link: ''
-            },
-            {
-                icon: 'qq',
-                link: ''
-            },
-            {
                 icon: 'xiami',
-                link: ''
-            },
-            {
-                icon: 'kugou',
-                link: ''
+                link: 'https://www.xiami.com/song/mShIpwcb21e'
             },
         ],
         date: ''
