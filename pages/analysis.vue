@@ -3,11 +3,19 @@
         <div id="chart">
 
         </div>
-        <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/echarts.min.js"></script>
     </div>
 </template>
 
 <script>
+    // import echarts from '../assets/echarts.min.js';
+    import echarts from 'echarts/lib/echarts';
+    import 'echarts/lib/chart/bar';
+    import 'echarts/lib/chart/line';
+    import 'echarts/lib/component/tooltip';
+    import 'echarts/lib/component/legend';
+    // import 'echarts/lib/component/toolbox';
+    // import 'echarts/lib/component/title';
+
     export default {
         name: 'analysis',
         data() {
@@ -119,10 +127,6 @@
             ]
 
             let option = {
-                title: {
-                    text: '抖音@MOTEL1969视频数据统计',
-                    left: '5%',
-                },
                 grid: {
                     left: '5%',
                     right: '5%',
@@ -137,15 +141,15 @@
                         }
                     },
                 },
-                toolbox: {
-                    feature: {
-                        dataView: {show: true, readOnly: false},
-                        magicType: {show: true, type: ['line', 'bar']},
-                        restore: {show: true},
-                        saveAsImage: {show: true}
-                    },
-                    right: '6%'
-                },
+                // toolbox: {
+                //     feature: {
+                //         dataView: {show: true, readOnly: false},
+                //         magicType: {show: true, type: ['line', 'bar']},
+                //         restore: {show: true},
+                //         saveAsImage: {show: true}
+                //     },
+                //     right: '6%'
+                // },
                 legend: {
                     data: ['播放量', '点赞', '评论', '分享', '点赞率', '评论率', '分享率']
                 },

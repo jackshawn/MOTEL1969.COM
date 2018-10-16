@@ -1,37 +1,38 @@
 {
-  "name": "motel",
-  "version": "1.0.0",
-  "description": "website MOTEL1969.COM",
-  "private": true,
-  "scripts": {
-    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
-    "build": "nuxt build",
-    "start": "cross-env NODE_ENV=production node server/index.js",
-    "generate": "nuxt generate"
-  },
-  "dependencies": {
-    "cross-env": "^5.2.0",
-    "nuxt": "^2.0.0",
-    "koa": "^2.5.2"
-  },
-  "devDependencies": {
-    "node-sass": "^4.9.4",
-    "nodemon": "^1.11.0",
-    "sass-loader": "^7.1.0"
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jackshawn/MOTEL1969.COM.git"
-  },
-  "author": "jackshawn@live.com",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jackshawn/MOTEL1969.COM/issues"
-  },
-  "homepage": "https://github.com/jackshawn/MOTEL1969.COM#readme"
+    "name": "motel",
+    "version": "1.0.0",
+    "description": "website MOTEL1969.COM",
+    "private": true,
+    "scripts": {
+        "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+        "build": "nuxt build",
+        "start": "cross-env NODE_ENV=production node server/index.js",
+        "generate": "nuxt generate"
+    },
+    "dependencies": {
+        "cross-env": "^5.2.0",
+        "echarts": "^4.2.0-rc.2",
+        "koa": "^2.5.2",
+        "nuxt": "^2.0.0"
+    },
+    "devDependencies": {
+        "node-sass": "^4.9.4",
+        "nodemon": "^1.11.0",
+        "sass-loader": "^7.1.0"
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not ie <= 8"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jackshawn/MOTEL1969.COM.git"
+    },
+    "author": "jackshawn@live.com",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jackshawn/MOTEL1969.COM/issues"
+    },
+    "homepage": "https://github.com/jackshawn/MOTEL1969.COM#readme"
 }
