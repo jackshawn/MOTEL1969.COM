@@ -1,7 +1,7 @@
 <template>
     <div class="movie-wrap">
-        <div class="movie-poster">
-            <img :src="video.cover" alt="">
+        <div class="movie-poster" :style="{backgroundImage: `url(${video.cover})`}">
+            <!--<img :src="video.cover" alt="">-->
             <div class="play" @click="jump">
                 <Icon icon="play"></Icon>
             </div>
@@ -18,15 +18,17 @@
                 <div class="one-media" :class="index == num ? 'active' : ''" v-for="(i, num) in video.movie">
                     <div class="media-video">
                         <Icon icon="movie"></Icon> :
-                        <a :href="item.link" target="_blank" v-for="item in i.video">
+                        <a v-if="i.video.length > 0" :href="item.link" target="_blank" v-for="item in i.video">
                             <Icon :icon="item.icon"></Icon>
                         </a>
+                        <span v-if="i.video.length == 0" class="yet">整理中...</span>
                     </div>
                     <div class="media-music">
                         <Icon icon="music"></Icon> :
-                        <a :href="item.link" target="_blank" v-for="item in video.music">
+                        <a v-if="video.music.length > 0" :href="item.link" target="_blank" v-for="item in video.music">
                             <Icon :icon="item.icon"></Icon>
                         </a>
+                        <span v-if="video.music.length == 0" class="yet">整理中...</span>
                     </div>
                 </div>
             </div>
@@ -78,6 +80,10 @@
 
         .movie-poster {
             width: $video-width;
+            height: 202px;
+            background-size: cover;
+            background-position: center;
+
             position: relative;
 
             img {
@@ -112,7 +118,7 @@
 
 
             .detail-name {
-                font-size: 14px;
+                font-size: 15px;
 
                 .one-name {
                     display: inline-block;
@@ -184,6 +190,11 @@
 
                     .media-music {
                         margin-bottom: 5px;
+                    }
+
+                    .yet {
+                        font-size: 14px;
+                        margin-left: 10px;
                     }
                 }
 

@@ -190,10 +190,6 @@ export default [
                         link: 'https://v.youku.com/v_show/id_XMTYxNDU4NzY3Ng==.html'
                     },
                     {
-                        icon: 'aiqiyi',
-                        link: ''
-                    },
-                    {
                         icon: 'tencent',
                         link: 'https://v.qq.com/x/cover/2n0gjsfnpyvbin3.html'
                     },
@@ -201,10 +197,10 @@ export default [
             },
         ],
         music: [
-            {
-                icon: 'netease',
-                link: ''
-            },
+            // {
+            //     icon: 'netease',
+            //     link: ''
+            // },
         ],
         date: ''
     },
@@ -229,22 +225,10 @@ export default [
             },
         ],
         music: [
-            {
-                icon: 'netease',
-                link: ''
-            },
-            {
-                icon: 'qq',
-                link: ''
-            },
-            {
-                icon: 'xiami',
-                link: ''
-            },
-            {
-                icon: 'kugou',
-                link: ''
-            },
+            // {
+            //     icon: 'netease',
+            //     link: ''
+            // },
         ],
         date: ''
     },
@@ -316,10 +300,10 @@ export default [
             },
         ],
         music: [
-            {
-                icon: 'netease',
-                link: ''
-            },
+            // {
+            //     icon: 'netease',
+            //     link: ''
+            // },
         ],
         date: ''
     },
@@ -334,11 +318,11 @@ export default [
                 video: [
                     {
                         icon: 'baiduyun',
-                        link: ''
+                        link: 'https://pan.baidu.com/s/1aguNMT8JH3L48YTT1Zk1fg'
                     },
                     {
                         icon: 'youtube',
-                        link: ''
+                        link: 'https://www.youtube.com/watch?v=Fv0O2jb10UA'
                     },
                 ],
             },
@@ -379,10 +363,6 @@ export default [
                     {
                         icon: 'tencent',
                         link: 'https://v.qq.com/x/cover/sjf09eud1m3p8sn/w0026t02p83.html'
-                    },
-                    {
-                        icon: 'bilibili',
-                        link: ''
                     },
                 ],
             },
@@ -428,22 +408,10 @@ export default [
             },
         ],
         music: [
-            {
-                icon: 'netease',
-                link: ''
-            },
-            {
-                icon: 'qq',
-                link: ''
-            },
-            {
-                icon: 'xiami',
-                link: ''
-            },
-            {
-                icon: 'kugou',
-                link: ''
-            },
+            // {
+            //     icon: 'netease',
+            //     link: ''
+            // },
         ],
         date: ''
     },

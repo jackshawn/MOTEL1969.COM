@@ -37,8 +37,8 @@
 
 <style scoped>
     .svg-icon {
-        width: 1.2em;
-        height: 1.2em;
+        width: 20px;
+        height: 20px;
         vertical-align: middle;
         fill: currentColor;
         overflow: hidden;
