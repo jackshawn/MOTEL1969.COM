@@ -1,7 +1,7 @@
 <template>
     <div class="home">
         <Movie v-for="i in videos" :video="i"></Movie>
-        <div class="empty"></div>
+        <div class="empty" v-for="i in empty"></div>
         <!--<div class="btn-more">-->
         <!--{{{normal: '更 多', done: '没有了', fetching: '正在获取...'}[btnState]}}-->
         <!--</div>-->
@@ -21,20 +21,25 @@
             return {
                 btnState: 'normal', // normal done fetching
                 index: 0,
-                videos: m
+                videos: m,
+
+                empty: 0 // 空位个数
             }
         },
         methods: {
             fecth() {
 
             }
+        },
+        mounted() {
+            this.empty = new Array((document.body.offsetWidth / 360) | 0)
         }
     }
 </script>
 <style scoped lang="scss">
     .home {
         display: flex;
-        max-width: 800px;
+        /*max-width: 800px;*/
         margin: 0 auto;
 
         flex-wrap: wrap;
