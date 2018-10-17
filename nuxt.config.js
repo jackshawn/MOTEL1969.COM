@@ -25,7 +25,6 @@ module.exports = {
         ],
         script: [
             {src: 'https://hm.baidu.com/hm.js?07c201f86bb993f888b4c9ec71ce4264'}, /*引入百度统计的js*/
-            {src: 'http://echarts.baidu.com/gallery/vendors/echarts/echarts.min.js'},
         ],
         link: [
             {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}
