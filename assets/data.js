@@ -1,4 +1,4 @@
-export default [
+module.exports = [
     // baiduyun folder : 链接: https://pan.baidu.com/s/1qQWcmvjoZDhFVXcX47Mf-w 提取码: bkpf
     {
         douyin: 'http://aweme.snssdk.com/aweme/v1/playwm/?video_id=v0200fa70000bevkkifk43al9tdfpqu0&line=0',
