@@ -7,15 +7,6 @@
 </template>
 
 <script>
-    // import echarts from '../assets/echarts.min.js';
-    import echarts from 'echarts/lib/echarts';
-    import 'echarts/lib/chart/bar';
-    import 'echarts/lib/chart/line';
-    import 'echarts/lib/component/tooltip';
-    import 'echarts/lib/component/legend';
-    // import 'echarts/lib/component/toolbox';
-    // import 'echarts/lib/component/title';
-
     import d from '~/assets/count';
 
     export default {
@@ -25,7 +16,7 @@
         },
         mounted() {
             let dom = document.getElementById("chart");
-            let myChart = echarts.init(dom);
+            let myChart = window.echarts.init(dom);
             let app = {};
             option = null;
 
