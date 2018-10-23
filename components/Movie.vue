@@ -2,9 +2,7 @@
     <div class="movie-wrap">
         <div class="movie-poster" :style="{backgroundImage: `url(${video.cover})`}">
             <!--<img :src="video.cover" alt="">-->
-            <div class="play" @click="jump">
-                <Icon icon="play"></Icon>
-            </div>
+            <div class="play icon-play" @click="jump"></div>
         </div>
 
         <div class="movie-detail">
@@ -17,16 +15,16 @@
             <div class="detail-media">
                 <div class="one-media" :class="index == num ? 'active' : ''" v-for="(i, num) in video.movie">
                     <div class="media-video">
-                        <Icon icon="movie"></Icon> :
+                        <i class="icon-movie"></i> :
                         <a v-if="i.video.length > 0" :href="item.link" target="_blank" v-for="item in i.video">
-                            <Icon :icon="item.icon"></Icon>
+                            <i :class= "'icon-' + item.icon"></i>
                         </a>
                         <span v-if="i.video.length == 0" class="yet">整理中...</span>
                     </div>
                     <div class="media-music">
-                        <Icon icon="music"></Icon> :
+                        <i class="icon-music"></i> :
                         <a v-if="video.music.length > 0" :href="item.link" target="_blank" v-for="item in video.music">
-                            <Icon :icon="item.icon"></Icon>
+                            <i :class= "'icon-' + item.icon"></i>
                         </a>
                         <span v-if="video.music.length == 0" class="yet">整理中...</span>
                     </div>
@@ -37,13 +35,8 @@
 </template>
 
 <script>
-    import Icon from './Icon.vue'
-
     export default {
         name: 'movie',
-        components: {
-            Icon
-        },
         props: {
             video: Object
         },
@@ -93,6 +86,7 @@
             .play {
                 width: 40px;
                 height: 40px;
+                font-size: 40px;
                 color: #fff;
                 cursor: pointer;
 
@@ -101,11 +95,6 @@
                 left: 50%;
                 margin-top: -20px;
                 margin-left: -20px;
-
-                &>svg {
-                    width: 40px;
-                    height: 40px;
-                }
             }
         }
 
@@ -173,6 +162,10 @@
                 .one-media {
                     display: none;
 
+                    i {
+                        font-size: 20px;
+                    }
+
                     &.active {
                         display: block;
                     }
@@ -182,6 +175,7 @@
                         display: inline-block;
                         margin-right: 5px;
                         margin-left: 10px;
+                        text-decoration: none;
                     }
 
                     .media-video {

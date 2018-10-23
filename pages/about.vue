@@ -1,16 +1,12 @@
 <template>
     <div class="about">
-        <p class="yet"><Icon icon="coming"></Icon></p>
+        <p class="yet"><i class="icon-coming"></i></p>
     </div>
 </template>
 
 <script>
-    import Icon from '~/components/Icon'
     export default {
         name: 'about',
-        components: {
-            Icon
-        },
         data() {
             return {}
         },
@@ -18,13 +14,15 @@
 </script>
 <style scoped lang="scss">
     .about {
+        min-height: 500px;
+
         .yet {
             margin-top: 80px;
             text-align: center;
 
-            &>svg {
-                width: 60px;
-                height: 60px;
+            &>i {
+                font-size: 60px;
+                color: #333;
             }
         }
     }

@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?ic6s6t');
+  src:  url('fonts/icomoon.eot?ic6s6t#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?ic6s6t') format('truetype'),
+    url('fonts/icomoon.woff?ic6s6t') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-aiqiyi:before {
+  content: "\e900";
+}
+.icon-baiduyun:before {
+  content: "\e901";
+}
+.icon-bilibili:before {
+  content: "\e902";
+}
+.icon-coming:before {
+  content: "\e903";
+}
+.icon-kugou:before {
+  content: "\e904";
+}
+.icon-movie:before {
+  content: "\e905";
+}
+.icon-music:before {
+  content: "\e906";
+}
+.icon-netease:before {
+  content: "\e907";
+}
+.icon-play:before {
+  content: "\e908";
+}
+.icon-qq:before {
+  content: "\e909";
+}
+.icon-tencent:before {
+  content: "\e90a";
+}
+.icon-thunder:before {
+  content: "\e90b";
+}
+.icon-xiami:before {
+  content: "\e90c";
+}
+.icon-youku:before {
+  content: "\e90d";
+}
+.icon-youtube:before {
+  content: "\e90e";
+}
