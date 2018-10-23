@@ -1,6 +1,46 @@
 module.exports = [
     // baiduyun folder : 链接: https://pan.baidu.com/s/1qQWcmvjoZDhFVXcX47Mf-w 提取码: bkpf
     {
+        douyin: 'https://aweme.snssdk.com/aweme/v1/playwm/?video_id=v0200ff20000bf3iq832ap94cafq6h3g&line=0',
+        cover: 'https://p99.pstatp.com/large/e4f3000960d935e8015b.jpg',
+        movie: [
+            {
+                name: '头文字D',
+                point: '7.1',
+                time: '2005',
+                video: [
+                    {
+                        icon: 'thunder',
+                        link: 'thunder://QUFmdHA6Ly81OjVAZHguZGwxMjM0LmNvbTo4MDA2LyVFNSVBNCVCNCVFNiU5NiU4NyVFNSVBRCU5N0RCRCVFNSU5QiVCRCVFNyVCMiVBNCVFNSU4RiU4QyVFOCVBRiVBRCVFNCVCOCVBRCVFNSVBRCU5N1slRTclOTQlQjUlRTUlQkQlQjElRTUlQTQlQTklRTUlQTAlODJ3d3cuZHkyMDE4LmNvbV0ubWt2Wlo='
+                    },
+                    {
+                        icon: 'baiduyun',
+                        link: 'https://pan.baidu.com/s/1dd7Q1H3nB3r7g6LcrzQkaA'
+                    },
+                    {
+                        icon: 'youku',
+                        link: 'https://v.youku.com/v_show/id_XMTgzNDA5OTMy.html'
+                    },
+                    {
+                        icon: 'aiqiyi',
+                        link: 'https://www.iqiyi.com/v_19rrjcmsec.html'
+                    },
+                    {
+                        icon: 'tencent',
+                        link: 'https://v.qq.com/x/cover/n16pc4sk2x29mjo.html'
+                    },
+                ],
+            },
+        ],
+        music: [
+            {
+                icon: 'netease',
+                link: 'https://music.163.com/#/song?id=27591651'
+            }
+        ],
+        date: ''
+    },
+    {
         douyin: 'http://aweme.snssdk.com/aweme/v1/playwm/?video_id=v0200fa70000bevkkifk43al9tdfpqu0&line=0',
         cover: 'https://p3.pstatp.com/large/e0bd000afcc42ab331dd.jpg',
         movie: [
