@@ -11,6 +11,7 @@
             <nuxt-link to="/about">关 于</nuxt-link>
         </div>
         <nuxt/>
+        <div class="foot">好片分享, 娱乐剪辑; 资源失效可以在 <a href="https://www.iesdouyin.com/share/user/86281943332" target="_blank">@抖音</a>上私信我补</div>
     </div>
 </template>
 
@@ -56,6 +57,20 @@
                     font-weight: bold;
                 }
             }
+        }
+    }
+
+    .foot {
+        border-top: 1px solid #ccc;
+        font-size: 14px;
+        text-align: center;
+        height: 60px;
+        line-height: 60px;
+        margin: 20px auto 0;
+
+        &>a {
+            text-decoration: none;
+            color: #000;
         }
     }
 </style>
